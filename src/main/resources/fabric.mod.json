@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "coins_arise",
+	"version": "${version}",
+	"name": "Create: Coins Arise",
+	"description": "A Create: Numismatics addon that aims to make creating coins create-ish.",
+	"authors": [
+		"SnackBag.NET Team",
+		"Lead Developer - JX_Snack"
+	],
+	"contact": {
+		"homepage": "https://snackbag.net/",
+		"sources": "https://github.com/snackbag-net/Create-Coins-Arise"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/coins_arise/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.snackbag.coinsarise.CreateCoinsArise"
+		],
+		"client": [
+			"net.snackbag.coinsarise.CreateCoinsAriseClient"
+		],
+		"fabric-datagen": [
+			"net.snackbag.coinsarise.CreateCoinsAriseDataGenerator"
+		]
+	},
+	"mixins": [
+		"coins_arise.mixins.json"
+	],
+	"depends": {
+		"create": "0.5.1-f-build.1417+mc1.20.1",
+		"numismatics": "1.0.4+fabric-mc1.20.1",
+		"fabricloader": ">=0.15.11",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": "0.92.1+1.20.1"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
