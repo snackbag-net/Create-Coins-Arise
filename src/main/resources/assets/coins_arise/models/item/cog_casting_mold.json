@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "coins_arise:item/spur_casting_mold"
+        "layer0": "coins_arise:item/cog_casting_mold"
     }
 }
