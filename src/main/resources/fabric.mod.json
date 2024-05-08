@@ -13,7 +13,7 @@
 		"homepage": "https://snackbag.net/",
 		"sources": "https://github.com/snackbag-net/Create-Coins-Arise"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPL2.1",
 	"icon": "assets/coins_arise/icon.png",
 	"environment": "*",
 	"entrypoints": {
