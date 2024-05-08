@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:copper_ingot"
+    },
+    "result": "coins_arise:molten_copper",
+    "experience": 1.0,
+    "cookingtime": 250
+}

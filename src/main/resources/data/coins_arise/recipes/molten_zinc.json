@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "create:zinc_ingot"
+    },
+    "result": "coins_arise:molten_zinc",
+    "experience": 1.0,
+    "cookingtime": 250
+}

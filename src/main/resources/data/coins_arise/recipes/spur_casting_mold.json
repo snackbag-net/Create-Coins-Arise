@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "coins_arise:diamond_plate"
+        },
+        {
+            "item": "coins_arise:molten_copper"
+        }
+    ],
+    "results": [
+        {
+            "item": "coins_arise:spur_casting_mold"
+        }
+    ]
+}

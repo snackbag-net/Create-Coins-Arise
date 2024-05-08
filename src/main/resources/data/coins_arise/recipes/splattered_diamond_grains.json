@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "minecraft:deepslate_diamond_ore"
+        }
+    ],
+    "results": [
+        {
+            "item": "coins_arise:splattered_diamond_grains",
+            "chance": 0.25
+        }
+    ]
+}

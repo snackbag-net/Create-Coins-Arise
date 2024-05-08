@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:splattered_emerald_grains"
+        },
+        {
+            "fluid": "minecraft:lava",
+            "nbt": {},
+            "amount": 81000
+        }
+    ],
+    "results": [
+        {
+            "item": "coins_arise:molten_emerald_plate",
+            "chance": 0.8
+        }
+    ],
+    "heatRequirement": "superheated"
+}

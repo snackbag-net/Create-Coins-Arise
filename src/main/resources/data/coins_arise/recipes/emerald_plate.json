@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:washing",
+    "ingredient": {
+        "item": "coins_arise:molten_emerald_plate"
+    },
+    "result": "coins_arise:emerald_plate",
+    "experience": 1.0,
+    "cookingtime": 250
+}

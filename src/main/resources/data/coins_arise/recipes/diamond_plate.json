@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:washing",
+    "ingredient": {
+        "item": "coins_arise:molten_diamond_plate"
+    },
+    "result": "coins_arise:diamond_plate",
+    "experience": 1.0,
+    "cookingtime": 250
+}

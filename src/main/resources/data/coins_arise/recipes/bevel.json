@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "coins_arise:bevel_casting_mold"
+        },
+        {
+            "item": "create:zinc_ingot"
+        }
+    ],
+    "results": [
+        {
+            "item": "numismatics:bevel"
+        }
+    ]
+}

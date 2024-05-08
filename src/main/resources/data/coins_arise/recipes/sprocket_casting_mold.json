@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "coins_arise:emerald_plate"
+        },
+        {
+            "item": "coins_arise:molten_iron"
+        }
+    ],
+    "results": [
+        {
+            "item": "coins_arise:sprocket_casting_mold"
+        }
+    ]
+}

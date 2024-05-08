@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "coins_arise:sprocket_casting_mold"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "results": [
+        {
+            "item": "numismatics:sprocket"
+        }
+    ]
+}
