@@ -18,14 +18,8 @@ public class ModItems {
     public static final Item CROWN_CASTING_MOLD = registerItem("crown_casting_mold", new Item(new FabricItemSettings()));
     public static final Item SUN_CASTING_MOLD = registerItem("sun_casting_mold", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(SPUR_CASTING_MOLD);
-        entries.add(BEVEL_CASTING_MOLD);
-        entries.add(SPROCKET_CASTING_MOLD);
-        entries.add(COG_CASTING_MOLD);
-        entries.add(CROWN_CASTING_MOLD);
-        entries.add(SUN_CASTING_MOLD);
-    }
+    public static final Item SPLATTERED_DIAMOND_GRAINS = registerItem("splattered_diamond_grains", new Item(new FabricItemSettings()));
+    public static final Item SPLATTERED_EMERALD_GRAINS = registerItem("splattered_emerald_grains", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CreateCoinsArise.MOD_ID, name), item);
@@ -33,7 +27,5 @@ public class ModItems {
 
     public static void registerModItems() {
         CreateCoinsArise.LOGGER.info("Registering Coins Arise items...");
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }
