@@ -14,11 +14,24 @@ public class ModItemGroups {
             new Identifier(CreateCoinsArise.MOD_ID, "coins_arise"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.coins_arise"))
                     .icon(() -> new ItemStack(ModItems.SPUR_CASTING_MOLD)).entries((displayContext, entries) -> {
+                        // Coin stuff
                         entries.add(ModItems.SPUR_CASTING_MOLD);
                         entries.add(ModItems.BEVEL_CASTING_MOLD);
                         entries.add(ModItems.SPROCKET_CASTING_MOLD);
+
+                        entries.add(ModItems.MOLTEN_COPPER); // spur
+                        entries.add(ModItems.MOLTEN_ZINC); // bevel
+                        entries.add(ModItems.MOLTEN_IRON); // sprocket
+
+                        // Plate stuff
                         entries.add(ModItems.SPLATTERED_DIAMOND_GRAINS);
                         entries.add(ModItems.SPLATTERED_EMERALD_GRAINS);
+
+                        entries.add(ModItems.MOLTEN_DIAMOND_PLATE);
+                        entries.add(ModItems.MOLTEN_EMERALD_PLATE);
+
+                        entries.add(ModItems.DIAMOND_PLATE);
+                        entries.add(ModItems.EMERALD_PLATE);
                     })
                     .build());
 
