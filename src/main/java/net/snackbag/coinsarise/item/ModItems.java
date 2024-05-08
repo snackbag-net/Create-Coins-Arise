@@ -14,9 +14,6 @@ public class ModItems {
     public static final Item SPUR_CASTING_MOLD = registerItem("spur_casting_mold", new Item(new FabricItemSettings()));
     public static final Item BEVEL_CASTING_MOLD = registerItem("bevel_casting_mold", new Item(new FabricItemSettings()));
     public static final Item SPROCKET_CASTING_MOLD = registerItem("sprocket_casting_mold", new Item(new FabricItemSettings()));
-    public static final Item COG_CASTING_MOLD = registerItem("cog_casting_mold", new Item(new FabricItemSettings()));
-    public static final Item CROWN_CASTING_MOLD = registerItem("crown_casting_mold", new Item(new FabricItemSettings()));
-    public static final Item SUN_CASTING_MOLD = registerItem("sun_casting_mold", new Item(new FabricItemSettings()));
 
     public static final Item SPLATTERED_DIAMOND_GRAINS = registerItem("splattered_diamond_grains", new Item(new FabricItemSettings()));
     public static final Item SPLATTERED_EMERALD_GRAINS = registerItem("splattered_emerald_grains", new Item(new FabricItemSettings()));

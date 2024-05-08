@@ -17,9 +17,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SPUR_CASTING_MOLD);
                         entries.add(ModItems.BEVEL_CASTING_MOLD);
                         entries.add(ModItems.SPROCKET_CASTING_MOLD);
-                        entries.add(ModItems.COG_CASTING_MOLD);
-                        entries.add(ModItems.CROWN_CASTING_MOLD);
-                        entries.add(ModItems.SUN_CASTING_MOLD);
                         entries.add(ModItems.SPLATTERED_DIAMOND_GRAINS);
                         entries.add(ModItems.SPLATTERED_EMERALD_GRAINS);
                     })
