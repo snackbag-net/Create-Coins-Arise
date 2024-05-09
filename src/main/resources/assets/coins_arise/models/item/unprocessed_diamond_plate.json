@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "coins_arise:item/molten_diamond_plate"
+        "layer0": "coins_arise:item/unprocessed_diamond_plate"
     }
 }
