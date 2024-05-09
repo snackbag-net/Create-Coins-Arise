@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "coins_arise:item/molten_copper"
+        "layer0": "coins_arise:item/molten_iron"
     }
 }
