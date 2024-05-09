@@ -21,6 +21,7 @@ public class ModBlocks {
                     .strength(0)
                     .sounds(BlockSoundGroup.WOOD)
                     .breakInstantly()
+                    .nonOpaque()
                     .collidable(true)
                     .hardness(0)
                     .pistonBehavior(PistonBehavior.DESTROY)));
