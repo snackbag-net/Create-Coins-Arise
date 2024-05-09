@@ -13,7 +13,7 @@
     "results": [
         {
             "item": "coins_arise:unprocessed_emerald_plate",
-            "chance": 0.8
+            "chance": 0.9
         }
     ],
     "heatRequirement": "superheated"
