@@ -13,10 +13,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.snackbag.coinsarise.CreateCoinsArise;
+import net.snackbag.coinsarise.block.custom.BountyBoardBlock;
 
 public class ModBlocks {
     public static final Block BOUNTY_BOARD_BLOCK = registerBlock("bounty_board",
-            new Block(FabricBlockSettings.create()
+            new BountyBoardBlock(FabricBlockSettings.create()
                     .strength(0)
                     .sounds(BlockSoundGroup.WOOD)
                     .breakInstantly()
