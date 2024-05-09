@@ -29,7 +29,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(CreateCoinsArise.MOD_ID, name), item);
     }
 
-    public static void registerModItems() {
+    public static void registerItems() {
         CreateCoinsArise.LOGGER.info("Registering Coins Arise items...");
     }
 }
