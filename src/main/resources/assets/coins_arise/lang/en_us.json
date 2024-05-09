@@ -9,8 +9,8 @@
     "item.coins_arise.molten_iron": "Molten Iron",
     "item.coins_arise.splattered_diamond_grains": "Splattered Diamond Grains",
     "item.coins_arise.splattered_emerald_grains": "Splattered Emerald Grains",
-    "item.coins_arise.molten_diamond_plate": "Molten Diamond Plate",
-    "item.coins_arise.molten_emerald_plate": "Molten Emerald Plate",
+    "item.coins_arise.unprocessed_diamond_plate": "Unprocessed Diamond Plate",
+    "item.coins_arise.unprocessed_emerald_plate": "Unprocessed Emerald Plate",
     "item.coins_arise.diamond_plate": "Diamond Plate",
     "item.coins_arise.emerald_plate": "Emerald Plate"
 }
