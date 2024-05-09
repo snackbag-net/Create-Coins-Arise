@@ -27,8 +27,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SPLATTERED_DIAMOND_GRAINS);
                         entries.add(ModItems.SPLATTERED_EMERALD_GRAINS);
 
-                        entries.add(ModItems.MOLTEN_DIAMOND_PLATE);
-                        entries.add(ModItems.MOLTEN_EMERALD_PLATE);
+                        entries.add(ModItems.UNPROCESSED_DIAMOND_PLATE);
+                        entries.add(ModItems.UNPROCESSED_EMERALD_PLATE);
 
                         entries.add(ModItems.DIAMOND_PLATE);
                         entries.add(ModItems.EMERALD_PLATE);
