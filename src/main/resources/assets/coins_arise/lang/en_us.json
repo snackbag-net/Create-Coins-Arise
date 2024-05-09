@@ -12,5 +12,7 @@
     "item.coins_arise.unprocessed_diamond_plate": "Unprocessed Diamond Plate",
     "item.coins_arise.unprocessed_emerald_plate": "Unprocessed Emerald Plate",
     "item.coins_arise.diamond_plate": "Diamond Plate",
-    "item.coins_arise.emerald_plate": "Emerald Plate"
+    "item.coins_arise.emerald_plate": "Emerald Plate",
+
+    "block.coins_arise.bounty_board": "Bounty Board"
 }
