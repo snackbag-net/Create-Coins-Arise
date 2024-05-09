@@ -20,7 +20,7 @@ public class ModItems {
     public static final Item SPLATTERED_EMERALD_GRAINS = registerItem("splattered_emerald_grains", new Item(new FabricItemSettings()));
 
     public static final Item UNPROCESSED_DIAMOND_PLATE = registerItem("unprocessed_diamond_plate", new Item(new FabricItemSettings()));
-    public static final Item UNPROCESSED_EMERALD_PLATE = registerItem("unprocessed_diamond_plate", new Item(new FabricItemSettings()));
+    public static final Item UNPROCESSED_EMERALD_PLATE = registerItem("unprocessed_emerald_plate", new Item(new FabricItemSettings()));
 
     public static final Item DIAMOND_PLATE = registerItem("diamond_plate", new Item(new FabricItemSettings()));
     public static final Item EMERALD_PLATE = registerItem("emerald_plate", new Item(new FabricItemSettings()));
