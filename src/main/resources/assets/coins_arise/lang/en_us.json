@@ -14,5 +14,6 @@
     "item.coins_arise.diamond_plate": "Diamond Plate",
     "item.coins_arise.emerald_plate": "Emerald Plate",
 
-    "block.coins_arise.bounty_board": "Bounty Board"
+    "block.coins_arise.bounty_board": "Bounty Board",
+    "block.coins_arise.bounty_board.gui_title": "Your bounties"
 }
