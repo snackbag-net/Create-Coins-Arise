@@ -2,7 +2,7 @@
     "type": "create:mixing",
     "ingredients": [
         {
-            "item": "minecraft:splattered_diamond_grains"
+            "item": "coins_arise:splattered_diamond_grains"
         },
         {
             "fluid": "minecraft:lava",
