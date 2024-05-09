@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.snackbag.coinsarise.CreateCoinsArise;
+import net.snackbag.coinsarise.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup NUMISMATIC_COINS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -32,6 +33,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.DIAMOND_PLATE);
                         entries.add(ModItems.EMERALD_PLATE);
+
+                        // Blocks
+                        entries.add(ModBlocks.BOUNTY_BOARD_BLOCK);
                     })
                     .build());
 
