@@ -2,7 +2,7 @@
     "type": "create:compacting",
     "ingredients": [
         {
-            "item": "coins_arise:molten_emerald_plate"
+            "item": "coins_arise:unprocessed_emerald_plate"
         },
         {
             "fluid": "minecraft:water",

@@ -2,7 +2,7 @@
     "type": "create:compacting",
     "ingredients": [
         {
-            "item": "coins_arise:molten_diamond_plate"
+            "item": "coins_arise:unprocessed_diamond_plate"
         },
         {
             "fluid": "minecraft:water",
