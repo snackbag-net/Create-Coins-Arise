@@ -1,9 +1,18 @@
 {
-    "type": "minecraft:washing",
-    "ingredient": {
-        "item": "coins_arise:molten_diamond_plate"
-    },
-    "result": "coins_arise:diamond_plate",
-    "experience": 1.0,
-    "cookingtime": 250
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "coins_arise:molten_diamond_plate"
+        },
+        {
+            "fluid": "minecraft:water",
+            "nbt": {},
+            "amount": 81000
+        }
+    ],
+    "results": [
+        {
+            "item": "coins_arise:diamond_plate"
+        }
+    ]
 }
