@@ -19,7 +19,7 @@ public class BountyBoardScreen extends HandledScreen<BountyBoardScreenHandler> {
     @Override
     protected void init() {
         super.init();
-        titleY = 0;
+        titleY = 1;
         playerInventoryTitleY = -100;
         backgroundWidth = 180;
         backgroundHeight = 171;
