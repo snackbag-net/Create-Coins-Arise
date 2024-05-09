@@ -2,6 +2,7 @@ package net.snackbag.coinsarise;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.snackbag.coinsarise.block.ModBlocks;
 import net.snackbag.coinsarise.item.ModItemGroups;
 import net.snackbag.coinsarise.item.ModItems;
 import org.slf4j.Logger;
@@ -14,7 +15,9 @@ public class CreateCoinsArise implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Starting Create: Coins Arise...");
-		ModItems.registerModItems();
+		ModItems.registerItems();
+		ModBlocks.registerBlocks();
+
 		ModItemGroups.registerItemGroups();
 	}
 }
