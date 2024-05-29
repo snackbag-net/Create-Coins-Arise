@@ -33,7 +33,7 @@
 	],
 	"depends": {
 		"create": "0.5.1-f-build.1417+mc1.20.1",
-		"numismatics": "1.0.4+fabric-mc1.20.1",
+		"numismatics": ">=1.0.4+fabric-mc1.20.1",
 		"fabricloader": ">=0.15.11",
 		"minecraft": "1.20.1",
 		"java": ">=17",
